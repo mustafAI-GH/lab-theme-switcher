@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  transition: background 0.3s, color 0.3s;
+  text-align: center;
+  padding: 2rem;
+}
+
+#theme-switcher-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+#theme-switcher-button:hover {
+  background-color: #e0e0e0;
+}
+
+#theme-dropdown {
+  margin: 0.5rem auto 0 auto;  /* juste en dessous du bouton, centré */
+  padding: 0;
+  list-style: none;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #fff;
+  min-width: 120px;
+}
+
+#theme-dropdown[hidden] {
+  display: none;
+}
+
+#theme-dropdown li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+#theme-dropdown li:hover {
+  background-color: #f0f0f0;
+}
+
+#theme-message {
+  margin-top: 1rem;
+  min-height: 20px;
+  font-weight: bold;
+}
+
+.theme-light {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.theme-dark {
+  background-color: #333333;
+  color: #ffffff;
+}
